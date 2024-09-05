@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\SentimentController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +14,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+
+Route::get('/', [SentimentController::class, 'index']);
+Route::get('/sentiment-data', [SentimentController::class, 'getSentimentData']);

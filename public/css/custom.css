@@ -1,0 +1,102 @@
+.card-maub {
+    box-shadow: 2px 9px 21px rgba(0, 0, 0, 0.03);
+}
+
+.nav-detail {
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.tab {
+    overflow: hidden;
+    /* border: 1px solid #ccc; */
+    background-color: transparent;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    border-bottom: 2px solid #e8e8e8;
+}
+
+.tab button:hover {
+    border-bottom: 2px solid #b4b4b4;
+}
+
+.tab button.active {
+    border-bottom: 2px solid #5badda;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    /* border: 1px solid #ccc; */
+    border-top: none;
+}
+
+.server-summary .card {
+    box-shadow: 2px 9px 21px rgba(0, 0, 0, 0.03);
+}
+
+.led {
+    width: 7px;
+    aspect-ratio: 1;
+    background-color: #66f66f;
+    box-shadow: 0 0 6px #3eff4b;
+    position: absolute;
+    border-radius: 100px;
+    /* background-color: #f66666;
+                    box-shadow: 0 0 6px #ff3e3e; */
+}
+
+.password-field,
+.username-field,
+.ip-field {
+    cursor: pointer;
+}
+
+.snap-actions {
+    text-align: right;
+}
+
+.btn-form {
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.btn-form:first-child {
+    margin-left: 0;
+}
+
+.w-7 {
+    width: 7rem;
+}
+
+.w-8 {
+    width: 8rem;
+}
+
+/* .password-field:hover,
+.username-field:hover,
+.ip-field:hover {
+  color: #5badda;
+} */
+
+.report-section {
+    position: relative;
+    left: -309.5px;
+    box-sizing: border-box;
+    width: 1914px;
+    max-width: 1920px;
+    padding-left: 331.5px;
+    padding-right: 331.5px;
+}
+
+a {
+    text-decoration: none;
+}

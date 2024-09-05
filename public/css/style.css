@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+}
+
+/* header .logo {
+  font-size: 24px;
+  font-weight: bold;
+} */
+
+header nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+.summary {
+    text-align: center;
+}
+
+/* .summary h1 {
+  font-size: 28px;
+} */
+
+.summary .admin {
+    font-weight: bold;
+}
+
+.summary .chart {
+    position: relative;
+    margin: 20px 0;
+}
+
+.summary .chart canvas {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.summary .latest-sentiment {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    text-align: left;
+}
+
+.latest-sentiment ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.latest-sentiment li {
+    margin: 5px 0;
+}
+
+.sentiment-counts {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.sentiment-counts .count {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.sentiment-counts .positive-count {
+    background-color: #6eacda;
+}
+
+.sentiment-counts .neutral-count {
+    background-color: #0f67b1;
+}
+
+.sentiment-counts .negative-count {
+    background-color: #021526;
+}
+
+.popular-sentiment {
+    margin: 40px 0;
+}
+
+/* .popular-sentiment h2 {
+  text-align: center;
+  font-size: 24px;
+} */
+
+/* .sentiment-categories {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+} */
+
+/* .category h3 {
+  font-size: 20px;
+} */
+
+.report-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+/* .report-section h2 {
+  font-size: 24px;
+} */
+
+.report-section button {
+    padding: 10px 20px;
+    /* font-size: 16px; */
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.detailed-sentiments {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.detailed-sentiments .bar-chart {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.sentiment-details details {
+    margin: 10px 0;
+}
